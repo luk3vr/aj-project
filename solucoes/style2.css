@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #153B65;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 4px 6px 16px 1px rgb(42, 42, 42);
+}
+
+.navigation {
+    background-color: #153B65;
+}
+
+.nav-link-custom {
+    font-weight: 500;
+    font-size: 18.5px;
+    border-bottom: 0.4px solid transparent;
+}
+
+.nav-link-custom:hover {
+    border-bottom: 0.4px solid white;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-content1 {
+    width: 400px;
+    color: white;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.title-custom1 {
+    text-decoration: underline;
+    color: #00B79E;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 80px;
+}
+
+.boxes1, .boxes2, .boxes3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.text-content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 12px;
+    width: 300px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.card2 {
+    width: 270px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #153B65;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 10px 10px 10px 10px rgb(33, 33, 34);
+    margin-top: 70px;
+}
+
+.navbar2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navbar2-menu {
+    list-style: none;
+}
+
+.link-navbar2 {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.link-navbar2:hover {
+    color: #6180A3;
+    transition: 0.2s;
+}
+
+.contact1, .contact2, .contact3 {
+    color: white;
+}

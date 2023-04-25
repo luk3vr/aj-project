@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #1E6FB8;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 4px 6px 16px 1px rgb(42, 42, 42);
+}
+
+.navigation {
+    background-color: #153B65;
+}
+
+.nav-link-custom {
+    font-weight: 500;
+    font-size: 18.5px;
+    border-bottom: 0.4px solid transparent;
+}
+
+.nav-link-custom:hover {
+    border-bottom: 0.4px solid white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg-image1 {
+    padding-top: 300px;
+}
+
+.content {
+   color: white; 
+   margin-top: -260px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    padding-top: 200px;
+    gap: 30px;
+    margin-top: -160px;
+}
+
+input, textarea {
+    width: 300px;
+    border: none;
+    border-radius: 16px;
+    padding: 6px;
+    padding-left: 16px;
+}
+
+textarea {
+    height: 180px;
+}
+
+.send-button {
+    border: none;
+    align-self: flex-end;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #00B7B1;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bg-image2 {
+    margin-top: -300px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #153B65;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 10px 10px 10px 10px rgb(33, 33, 34);
+}
+
+.navbar2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navbar2-menu {
+    list-style: none;
+}
+
+.link-navbar2 {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.link-navbar2:hover {
+    color: #6180A3;
+    transition: 0.2s;
+}
+
+.contact1, .contact2, .contact3 {
+    color: white;
+}
